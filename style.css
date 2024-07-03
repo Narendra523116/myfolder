@@ -23,7 +23,7 @@ main {
 }
 
 .list-item {
-    list-style-type: none;
+    list-style-type: disc;
 }
 
 image img {
@@ -51,7 +51,8 @@ image img {
     ;
 }
 
-.profiles {
+.profiles>.list-item {
+    list-style-type: none;
     align-items: flex-end;
 }
 
@@ -73,8 +74,13 @@ image img {
 }
 
 ul {
-    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
 
+}
+
+.shadow {
+    padding-top: 0px;
 }
 
 
@@ -83,4 +89,13 @@ ul {
 .contact:hover {
     box-shadow: 5px 5px 5px gray;
 
+}
+
+.skill {
+    position: relative;
+    padding-left: 1rem;
+}
+
+.blocks>.project {
+    padding-left: 1rem;
 }
