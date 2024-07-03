@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    width: 100vw;
+    /* height: 100vh; */
+    margin-top: 1rem;
+
+}
+
+.flex-container {
+    display: flex;
+    width: 50%;
+    /* height: 100%; */
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 25%;
+    /* padding: 10px; */
+    border: 1px solid black;
+    /* box-shadow: 8px 8px 8px rgba(211, 38, 38, 0.87); */
+}
+
+.list-item {
+    list-style-type: none;
+}
+
+image img {
+    width: 100%;
+}
+
+.left-flex,
+.right-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-flex {
+    padding: 20px;
+}
+
+.right-flex {
+    padding: 0px;
+    /* background-color: rgba(55, 23, 196, 0.842); */
+}
+
+.blocks {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    ;
+}
+
+.profiles {
+    align-items: flex-end;
+}
+
+.ach-div {
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.projects {
+    margin-top: 0px;
+}
+
+.project:hover,
+.shadow:hover {
+    /* list-style-type: circle; */
+    box-shadow: 5px 5px 5px gray;
+}
+
+ul {
+    padding-left: 1rem;
+
+}
+
+
+
+.achievements:hover,
+.contact:hover {
+    box-shadow: 5px 5px 5px gray;
+
+}
