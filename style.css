@@ -18,7 +18,7 @@ main {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
+    width: 70%;
     max-width: 1200px;
     justify-content: center;
     margin: 0 auto;
@@ -37,18 +37,18 @@ image img {
 .left-flex,
 .right-flex {
     display: flex;
-    flex : 1;
+    padding: 1.4rem;
     flex-direction: column;
 }
 
-.left-flex {
-    padding: 20px;
+.left-flex{
+    flex : 2;
 }
 
-.right-flex {
-    padding: 0px;
-    /* background-color: rgba(55, 23, 196, 0.842); */
+.right-flex{
+    flex: 1;
 }
+
 
 .blocks {
     margin-top: 10px;
@@ -70,6 +70,11 @@ image img {
 
 .projects {
     margin-top: 0px;
+}
+
+.responsive-image{
+    width : 100%;
+    height : auto;
 }
 
 .project:hover,
