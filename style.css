@@ -53,8 +53,8 @@ main {
 
 
 .blocks {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
     ;
 }
 
@@ -82,7 +82,7 @@ main {
 .project:hover,
 .shadow:hover {
     /* list-style-type: circle; */
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 0.4rem 0.4rem 04rem gray;
 }
 
 ul {
@@ -105,7 +105,7 @@ ul {
 
 .achievements:hover,
 .contact:hover {
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 0.4rem 0.4rem 0.4rem gray;
 
 }
 
