@@ -33,7 +33,7 @@ main {
 .left-flex,
 .right-flex {
     display: flex;
-    padding: 1.4rem;
+    margin-left: 1.4rem;
     flex-direction: column;
 }
 
@@ -44,9 +44,10 @@ main {
 
 .right-flex{
     flex: 1;
+    /* padding : 1rem; */
     padding-top : 0px;
     padding-right :0px;
-    background-color: #d93536;
+    background-color:#003243;
     color : white
 }
 
@@ -91,7 +92,9 @@ ul {
 }
 
 .details{
-    padding-right : 0.8rem;
+    /* paddi */
+    padding : 0.8rem;
+
 }
 
 .shadow {
