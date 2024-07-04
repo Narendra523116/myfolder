@@ -30,10 +30,6 @@ main {
     list-style-type: disc;
 }
 
-image img {
-    width: 100%;
-}
-
 .left-flex,
 .right-flex {
     display: flex;
@@ -45,8 +41,13 @@ image img {
     flex : 2;
 }
 
+
 .right-flex{
     flex: 1;
+    padding-top : 0px;
+    padding-right :0px;
+    background-color: #d93536;
+    color : white
 }
 
 
@@ -87,6 +88,10 @@ ul {
     padding-top: 1rem;
     padding-left: 2rem;
 
+}
+
+.details{
+    padding-right : 0.8rem;
 }
 
 .shadow {
