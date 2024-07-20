@@ -48,7 +48,7 @@ main {
     /* padding : 1rem; */
     padding-top : 0px;
     padding-right :0px;
-    background-color:#003243;
+    background-color:#0a2477;
     color : white
 }
 
@@ -117,4 +117,13 @@ ul {
 
 .blocks>.project {
     padding-left: 1rem;
+}
+
+@media(max-width : 700px){
+    body{
+        width : 100%;
+    }
+    main{
+        width : 100%;
+    }
 }
